@@ -1,0 +1,18 @@
+.App {
+  text-align:center;
+  background-color: wheat;
+  color:black;
+
+  &__header {
+    padding: 3rem;
+    font-style: italic;
+  }
+
+  &__title {
+    font-size: 4rem;
+    @media (max-width: 768px) {
+      font-size: 5rem;
+      color: rgb(255, 8, 0);
+    }
+  }
+}
